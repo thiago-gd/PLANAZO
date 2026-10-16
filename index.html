@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PLANAZO: descubre lugares y actividades gratuitas en España.">
+  <title>PLANAZO | Planes gratis en España</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="hero"><nav><span class="brand">📍 PLANAZO</span><span class="pill">100 % gratis</span></nav><div class="hero-copy"><h1>Tu próximo planazo está aquí ✨</h1><p>Descubre lugares y actividades gratuitas por toda España.</p></div></header>
+<main><section class="filters" aria-label="Filtros de búsqueda"><label for="search">Buscar un plan</label><input id="search" type="search" placeholder="Ej. playa, parque, cultura…"><div class="filter-grid"><div><label for="city">Ciudad</label><select id="city"><option value="">Toda España</option></select></div><div><label for="category">Categoría</label><select id="category"><option value="">Todas</option></select></div></div><label class="favorite-toggle"><input id="onlyFavorites" type="checkbox"> Mostrar solo favoritos ❤️</label></section><section aria-label="Resultados"><div class="results-heading"><h2>Explora planes</h2><span id="count" aria-live="polite"></span></div><div id="cards" class="cards"></div><p id="empty" class="empty" hidden>No hay planes con estos filtros. Prueba otra búsqueda.</p></section><p class="notice">ℹ️ Estos son lugares de ejemplo, no eventos en directo. Comprueba horarios, accesibilidad y posibles restricciones antes de ir. Los favoritos se guardan solo en este navegador.</p></main><footer>Hecho con ❤️ para descubrir España · PLANAZO</footer>
+</body>
+</html>
