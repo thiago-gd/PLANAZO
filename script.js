@@ -1,38 +1,20 @@
-// Para añadir lugares, copia un objeto y cambia sus datos.
-// Incluye solo planes gratuitos que hayas comprobado.
-const plans = [
-  {id:1,title:'Paseo por El Retiro',city:'Madrid',category:'Naturaleza',place:'Parque de El Retiro',description:'Disfruta de sus jardines, caminos y estanque desde los espacios públicos.',emoji:'🌳'},
-  {id:2,title:'Paseo por el entorno del Park Güell',city:'Barcelona',category:'Cultura',place:'Calles del entorno del Park Güell',description:'Explora el barrio y sus vistas. La zona monumental del parque requiere entrada.',emoji:'🏛️'},
-  {id:3,title:'Tarde en la Malagueta',city:'Málaga',category:'Naturaleza',place:'Playa de la Malagueta',description:'Pasea junto al mar o disfruta de la playa pública.',emoji:'🏖️'},
-  {id:4,title:'Descubre la Plaza de España',city:'Sevilla',category:'Cultura',place:'Plaza de España',description:'Contempla su arquitectura y los azulejos de las provincias.',emoji:'✨'},
-  {id:5,title:'Ruta por el Jardín del Turia',city:'Valencia',category:'Deporte',place:'Jardín del Turia',description:'Recorre a pie los senderos y zonas verdes de este parque urbano.',emoji:'🚲'},
-  {id:6,title:'Paseo por la playa de la Fontanilla',city:'Marbella',category:'Naturaleza',place:'Playa de la Fontanilla',description:'Un paseo al aire libre junto a la costa.',emoji:'🌊'}
+// Lugares orientativos: no son eventos programados. Comprueba siempre el acceso antes de visitarlos.
+const PLANS=[
+{id:1,name:'Parque del Retiro',city:'Madrid',category:'Naturaleza',description:'Un oasis verde para pasear, relajarte y descubrir jardines en el corazón de Madrid.',location:'Parque del Retiro, Madrid',image:'photo-1500534623283-312aade485b7'},
+{id:2,name:'Madrid Río',city:'Madrid',category:'Paseos',description:'Un largo paseo junto al río con zonas verdes y espacios para disfrutar al aire libre.',location:'Madrid Río, Madrid',image:'photo-1473448912268-2022ce9509d8'},
+{id:3,name:'Playa de la Barceloneta',city:'Barcelona',category:'Naturaleza',description:'Pasea junto al Mediterráneo y disfruta del ambiente marítimo de la ciudad.',location:'Playa de la Barceloneta, Barcelona',image:'photo-1507525428034-b723cf961d3e'},
+{id:4,name:'Parque de la Ciutadella',city:'Barcelona',category:'Naturaleza',description:'Un gran parque urbano ideal para caminar, descansar y disfrutar de sus jardines.',location:'Parc de la Ciutadella, Barcelona',image:'photo-1441974231531-c6227db76b6e'},
+{id:5,name:'Jardín del Turia',city:'Valencia',category:'Paseos',description:'Kilómetros de zonas verdes que atraviesan Valencia y conectan distintos barrios.',location:'Jardín del Turia, Valencia',image:'photo-1470071459604-3b5ec3a7fe05'},
+{id:6,name:'Plaza de España',city:'Sevilla',category:'Cultura',description:'Admira la arquitectura y los mosaicos de uno de los espacios más emblemáticos de Sevilla.',location:'Plaza de España, Sevilla',image:'photo-1516483638261-f4dbaf036963'},
+{id:7,name:'Playa de la Malagueta',city:'Málaga',category:'Naturaleza',description:'Una playa urbana donde pasear y disfrutar de las vistas al mar.',location:'Playa de la Malagueta, Málaga',image:'photo-1473116763249-2faaef81ccda'},
+{id:8,name:'Parque de Málaga',city:'Málaga',category:'Paseos',description:'Recorre sus senderos sombreados y descubre vegetación tropical en pleno centro.',location:'Parque de Málaga, Málaga',image:'photo-1416879595882-3373a0480b5b'},
+{id:9,name:'Paseo Marítimo de Marbella',city:'Marbella',category:'Paseos',description:'Camina junto a la costa y disfruta del Mediterráneo a tu ritmo.',location:'Paseo Marítimo, Marbella',image:'photo-1500375592092-40eb2168fd21'},
+{id:10,name:'Mirador de San Nicolás',city:'Granada',category:'Miradores',description:'Disfruta de una panorámica de la Alhambra desde el barrio del Albaicín.',location:'Mirador de San Nicolás, Granada',image:'photo-1464822759023-fed622ff2c3b'},
+{id:11,name:'Playa de la Concha',city:'San Sebastián',category:'Naturaleza',description:'Un paseo clásico frente a una de las bahías más conocidas del norte de España.',location:'Playa de la Concha, Donostia-San Sebastián',image:'photo-1519046904884-53103b34b206'},
+{id:12,name:'Parque Grande José Antonio Labordeta',city:'Zaragoza',category:'Naturaleza',description:'Amplias avenidas arboladas y jardines para un día tranquilo al aire libre.',location:'Parque Grande José Antonio Labordeta, Zaragoza',image:'photo-1448375240586-882707db888b'}
 ];
-const $ = id => document.getElementById(id);
-const saved = (()=>{try{return JSON.parse(localStorage.getItem('planazo-favorites')||'[]')}catch{return []}})();
-const favorites = new Set(Array.isArray(saved)?saved:[]);
-const unique = field => [...new Set(plans.map(p=>p[field]))].sort((a,b)=>a.localeCompare(b,'es'));
-for(const field of ['city','category'])for(const value of unique(field)){const opt=document.createElement('option');opt.value=value;opt.textContent=value;$(field).append(opt)}
-function render(){
- const q=$('search').value.trim().toLocaleLowerCase('es');
- const filtered=plans.filter(p=>(!$('city').value||p.city===$('city').value)&&(!$('category').value||p.category===$('category').value)&&(!$('onlyFavorites').checked||favorites.has(p.id))&&[p.title,p.city,p.category,p.place,p.description].some(s=>s.toLocaleLowerCase('es').includes(q)));
- $('count').textContent=`${filtered.length} ${filtered.length===1?'plan':'planes'}`;
- $('empty').hidden=filtered.length!==0;
- $('cards').replaceChildren(...filtered.map(p=>{
-  const card=document.createElement('article');card.className='card';
-  const top=document.createElement('div');top.className='card-top';
-  const emoji=document.createElement('span');emoji.className='emoji';emoji.textContent=p.emoji;
-  const heart=document.createElement('button');heart.className='heart';heart.type='button';heart.textContent=favorites.has(p.id)?'♥':'♡';heart.setAttribute('aria-label',`${favorites.has(p.id)?'Quitar de':'Añadir a'} favoritos: ${p.title}`);heart.setAttribute('aria-pressed',String(favorites.has(p.id)));
-  heart.addEventListener('click',()=>{favorites.has(p.id)?favorites.delete(p.id):favorites.add(p.id);try{localStorage.setItem('planazo-favorites',JSON.stringify([...favorites]))}catch{}render()});
-  top.append(emoji,heart);
-  const title=document.createElement('h3');title.textContent=p.title;
-  const desc=document.createElement('p');desc.textContent=p.description;
-  const meta=document.createElement('p');meta.className='meta';meta.textContent=`📍 ${p.city} · ${p.place}`;
-  const bottom=document.createElement('div');bottom.className='card-bottom';
-  const tag=document.createElement('span');tag.className='tag';tag.textContent=p.category;
-  const free=document.createElement('span');free.className='free';free.textContent='GRATIS';
-  bottom.append(tag,free);card.append(top,title,desc,meta,bottom);return card;
- }));
-}
-for(const id of ['search','city','category','onlyFavorites'])$(id).addEventListener(id==='search'?'input':'change',render);
-render();
+const $=id=>document.getElementById(id);const KEY='planazo_favoritos_v2';let saved=[];try{saved=JSON.parse(localStorage.getItem(KEY)||'[]');if(!Array.isArray(saved))saved=[]}catch{saved=[]}let onlyFav=false;
+const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const cityList=[...new Set(PLANS.map(p=>p.city))].sort((a,b)=>a.localeCompare(b,'es'));cityList.forEach(c=>{const option=document.createElement('option');option.value=c;option.textContent=c;$('city').append(option)});
+function render(){const q=$('search').value.trim().toLocaleLowerCase('es');const city=$('city').value;const category=$('category').value;const list=PLANS.filter(p=>(!city||p.city===city)&&(!category||p.category===category)&&(!onlyFav||saved.includes(p.id))&&(!q||[p.name,p.city,p.description].join(' ').toLocaleLowerCase('es').includes(q)));$('count').textContent=`${list.length} ${list.length===1?'plan':'planes'}`;$('favCount').textContent=saved.length;$('favNav').textContent=onlyFav?'♥ Ver todos':'♡ Favoritos';const span=document.createElement('span');span.id='favCount';span.textContent=saved.length;$('favNav').append(' ',span);document.querySelectorAll('.chip').forEach(b=>b.classList.toggle('active',b.dataset.category===category));$('empty').hidden=list.length>0;$('cards').innerHTML=list.map(p=>{const map='https://www.openstreetmap.org/search?query='+encodeURIComponent(p.location);return `<article class="card"><div class="photo" role="img" aria-label="Fotografía ilustrativa de paisaje" style="background-image:url('https://images.unsplash.com/${p.image}?auto=format&fit=crop&w=850&q=80')"><span class="free">✓ PLAN GRATIS*</span><button class="heart ${saved.includes(p.id)?'saved':''}" type="button" data-fav="${p.id}" aria-label="${saved.includes(p.id)?'Quitar de':'Añadir a'} favoritos: ${escapeHtml(p.name)}" aria-pressed="${saved.includes(p.id)}">${saved.includes(p.id)?'♥':'♡'}</button></div><div class="cardbody"><div class="meta">📍 ${escapeHtml(p.city)} · ${escapeHtml(p.category)}</div><h3>${escapeHtml(p.name)}</h3><p>${escapeHtml(p.description)}</p><div class="actions"><a class="maplink" href="${map}" target="_blank" rel="noopener noreferrer">↗ Ver mapa</a><span class="details">Consulta horarios y acceso</span></div></div></article>`}).join('')}
+$('cards').addEventListener('click',e=>{const btn=e.target.closest('[data-fav]');if(!btn)return;const id=Number(btn.dataset.fav);saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];try{localStorage.setItem(KEY,JSON.stringify(saved))}catch{}render()});$('search').addEventListener('input',render);$('city').addEventListener('change',render);$('category').addEventListener('change',render);document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{$('category').value=b.dataset.category;render()}));$('reset').addEventListener('click',()=>{$('search').value='';$('city').value='';$('category').value='';onlyFav=false;render()});$('favNav').addEventListener('click',()=>{onlyFav=!onlyFav;render();$('explorar').scrollIntoView({behavior:'smooth'})});render();
