@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "nombre": "Parque de El Retiro",
+    "ciudad": "Madrid",
+    "categoria": "Naturaleza",
+    "descripcion": "Gran parque histórico con jardines y paseos.",
+    "fuente": "https://www.esmadrid.com/informacion-tur%C3%ADstica/parque-del-retiro",
+    "ubicacion": "Parque de El Retiro, Madrid, España"
+  },
+  {
+    "id": 2,
+    "nombre": "Jardines de Sabatini",
+    "ciudad": "Madrid",
+    "categoria": "Naturaleza",
+    "descripcion": "Jardines geométricos frente al Palacio Real.",
+    "fuente": "https://www.esmadrid.com/informacion-turistica/jardines-de-sabatini",
+    "ubicacion": "Jardines de Sabatini, Madrid, España"
+  },
+  {
+    "id": 3,
+    "nombre": "Jardines del Templo de Debod",
+    "ciudad": "Madrid",
+    "categoria": "Miradores",
+    "descripcion": "Paseo por los jardines con vistas al atardecer.",
+    "fuente": "https://www.esmadrid.com/informacion-turistica/jardines-del-templo-de-debod",
+    "ubicacion": "Jardines del Templo de Debod, Madrid, España"
+  },
+  {
+    "id": 4,
+    "nombre": "Parque del Oeste",
+    "ciudad": "Madrid",
+    "categoria": "Naturaleza",
+    "descripcion": "Senderos y zonas verdes junto a Moncloa.",
+    "fuente": "https://www.esmadrid.com/informacion-turistica/parque-del-oeste",
+    "ubicacion": "Parque del Oeste, Madrid, España"
+  },
+  {
+    "id": 5,
+    "nombre": "Jardines del Campo del Moro",
+    "ciudad": "Madrid",
+    "categoria": "Naturaleza",
+    "descripcion": "Jardines históricos a los pies del Palacio Real.",
+    "fuente": "https://www.esmadrid.com/siempre-gratis-madrid",
+    "ubicacion": "Jardines del Campo del Moro, Madrid, España"
+  },
+  {
+    "id": 6,
+    "nombre": "Madrid Río",
+    "ciudad": "Madrid",
+    "categoria": "Paseos",
+    "descripcion": "Recorrido peatonal junto al Manzanares.",
+    "fuente": "https://www.esmadrid.com/siempre-gratis-madrid",
+    "ubicacion": "Madrid Río, Madrid, España"
+  },
+  {
+    "id": 7,
+    "nombre": "Lago de la Casa de Campo",
+    "ciudad": "Madrid",
+    "categoria": "Naturaleza",
+    "descripcion": "Paseo por el entorno del lago.",
+    "fuente": "https://www.esmadrid.com/siempre-gratis-madrid",
+    "ubicacion": "Lago de la Casa de Campo, Madrid, España"
+  },
+  {
+    "id": 8,
+    "nombre": "Mirador de la Cornisa",
+    "ciudad": "Madrid",
+    "categoria": "Miradores",
+    "descripcion": "Vistas panorámicas junto al Palacio Real.",
+    "fuente": "https://www.esmadrid.com/siempre-gratis-madrid",
+    "ubicacion": "Mirador de la Cornisa, Madrid, España"
+  },
+  {
+    "id": 9,
+    "nombre": "Parque Juan Carlos I",
+    "ciudad": "Madrid",
+    "categoria": "Naturaleza",
+    "descripcion": "Amplias zonas verdes para pasear.",
+    "fuente": "https://www.esmadrid.com/parques-jardines-Madrid",
+    "ubicacion": "Parque Juan Carlos I, Madrid, España"
+  },
+  {
+    "id": 10,
+    "nombre": "Quinta de los Molinos",
+    "ciudad": "Madrid",
+    "categoria": "Naturaleza",
+    "descripcion": "Jardines y árboles en un parque madrileño.",
+    "fuente": "https://www.esmadrid.com/jardines-encanto",
+    "ubicacion": "Quinta de los Molinos, Madrid, España"
+  },
+  {
+    "id": 11,
+    "nombre": "Jardín del Turia",
+    "ciudad": "Valencia",
+    "categoria": "Naturaleza",
+    "descripcion": "Gran corredor verde que atraviesa la ciudad.",
+    "fuente": "https://www.visitvalencia.com/que-hacer-valencia/rutas-por-la-ciudad/pasear-valencia",
+    "ubicacion": "Jardín del Turia, Valencia, España"
+  },
+  {
+    "id": 12,
+    "nombre": "Plaza de la Virgen",
+    "ciudad": "Valencia",
+    "categoria": "Cultura",
+    "descripcion": "Plaza histórica con una fuente emblemática.",
+    "fuente": "https://www.visitvalencia.com/que-hacer-valencia/rutas-por-la-ciudad/pasear-valencia",
+    "ubicacion": "Plaza de la Virgen, Valencia, España"
+  },
+  {
+    "id": 13,
+    "nombre": "Torres de Serranos (exterior)",
+    "ciudad": "Valencia",
+    "categoria": "Cultura",
+    "descripcion": "Admira una antigua puerta monumental desde la calle.",
+    "fuente": "https://www.visitvalencia.com/que-hacer-valencia/rutas-por-la-ciudad/pasear-valencia",
+    "ubicacion": "Torres de Serranos (exterior), Valencia, España"
+  },
+  {
+    "id": 14,
+    "nombre": "Torres de Quart (exterior)",
+    "ciudad": "Valencia",
+    "categoria": "Cultura",
+    "descripcion": "Pasea junto a las antiguas torres de la ciudad.",
+    "fuente": "https://www.visitvalencia.com/que-hacer-valencia/rutas-por-la-ciudad/pasear-valencia",
+    "ubicacion": "Torres de Quart (exterior), Valencia, España"
+  },
+  {
+    "id": 15,
+    "nombre": "Plaza Redonda",
+    "ciudad": "Valencia",
+    "categoria": "Paseos",
+    "descripcion": "Plaza singular en el centro histórico.",
+    "fuente": "https://www.visitvalencia.com/que-hacer-valencia/rutas-por-la-ciudad/pasear-valencia",
+    "ubicacion": "Plaza Redonda, Valencia, España"
+  },
+  {
+    "id": 16,
+    "nombre": "Barrio del Carmen",
+    "ciudad": "Valencia",
+    "categoria": "Paseos",
+    "descripcion": "Calles históricas para descubrir a pie.",
+    "fuente": "https://www.visitvalencia.com/que-hacer-valencia/rutas-por-la-ciudad/pasear-valencia",
+    "ubicacion": "Barrio del Carmen, Valencia, España"
+  },
+  {
+    "id": 17,
+    "nombre": "La Marina de València",
+    "ciudad": "Valencia",
+    "categoria": "Paseos",
+    "descripcion": "Amplias explanadas junto al puerto.",
+    "fuente": "https://www.visitvalencia.com/que-hacer-valencia/rutas-por-la-ciudad/pasear-valencia",
+    "ubicacion": "La Marina de València, Valencia, España"
+  },
+  {
+    "id": 18,
+    "nombre": "Playa de la Malvarrosa",
+    "ciudad": "Valencia",
+    "categoria": "Playas",
+    "descripcion": "Paseo por una de las playas urbanas.",
+    "fuente": "https://www.visitvalencia.com/que-ver-valencia",
+    "ubicacion": "Playa de la Malvarrosa, Valencia, España"
+  },
+  {
+    "id": 19,
+    "nombre": "Playa del Cabanyal",
+    "ciudad": "Valencia",
+    "categoria": "Playas",
+    "descripcion": "Disfruta del paseo marítimo y la playa.",
+    "fuente": "https://www.visitvalencia.com/que-ver-valencia",
+    "ubicacion": "Playa del Cabanyal, Valencia, España"
+  },
+  {
+    "id": 20,
+    "nombre": "Parque de Cabecera",
+    "ciudad": "Valencia",
+    "categoria": "Naturaleza",
+    "descripcion": "Espacio verde al inicio del antiguo cauce.",
+    "fuente": "https://www.visitvalencia.com/que-hacer-valencia/rutas-por-la-ciudad/bici",
+    "ubicacion": "Parque de Cabecera, Valencia, España"
+  },
+  {
+    "id": 21,
+    "nombre": "Mirador de San Nicolás",
+    "ciudad": "Granada",
+    "categoria": "Miradores",
+    "descripcion": "Panorámica de la Alhambra desde el Albaicín.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
+    "ubicacion": "Mirador de San Nicolás, Granada, España"
+  },
+  {
+    "id": 22,
+    "nombre": "Mirador de San Cristóbal",
+    "ciudad": "Granada",
+    "categoria": "Miradores",
+    "descripcion": "Vistas del casco histórico y sus colinas.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
+    "ubicacion": "Mirador de San Cristóbal, Granada, España"
+  },
+  {
+    "id": 23,
+    "nombre": "Mirador de la Churra",
+    "ciudad": "Granada",
+    "categoria": "Miradores",
+    "descripcion": "Rincón panorámico sobre el Albaicín.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
+    "ubicacion": "Mirador de la Churra, Granada, España"
+  },
+  {
+    "id": 24,
+    "nombre": "Paseo de los Tristes",
+    "ciudad": "Granada",
+    "categoria": "Paseos",
+    "descripcion": "Paseo junto al Darro con vistas a la Alhambra.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
+    "ubicacion": "Paseo de los Tristes, Granada, España"
+  },
+  {
+    "id": 25,
+    "nombre": "Plaza Nueva",
+    "ciudad": "Granada",
+    "categoria": "Cultura",
+    "descripcion": "Plaza céntrica y punto de partida de rutas.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
+    "ubicacion": "Plaza Nueva, Granada, España"
+  },
+  {
+    "id": 26,
+    "nombre": "Plaza de Carvajales",
+    "ciudad": "Granada",
+    "categoria": "Miradores",
+    "descripcion": "Pequeña plaza con vistas de la Alhambra.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
+    "ubicacion": "Plaza de Carvajales, Granada, España"
+  },
+  {
+    "id": 27,
+    "nombre": "Mirador del Zenete",
+    "ciudad": "Granada",
+    "categoria": "Miradores",
+    "descripcion": "Parada en una ruta de miradores del Albaicín.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/triptico_miradores.pdf",
+    "ubicacion": "Mirador del Zenete, Granada, España"
+  },
+  {
+    "id": 28,
+    "nombre": "Mirador de la Cruz de Rauda",
+    "ciudad": "Granada",
+    "categoria": "Miradores",
+    "descripcion": "Mirador en la subida por el Albaicín.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
+    "ubicacion": "Mirador de la Cruz de Rauda, Granada, España"
+  },
+  {
+    "id": 29,
+    "nombre": "Mirador de San Miguel Alto",
+    "ciudad": "Granada",
+    "categoria": "Miradores",
+    "descripcion": "Vistas amplias desde lo alto de la ciudad.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
+    "ubicacion": "Mirador de San Miguel Alto, Granada, España"
+  },
+  {
+    "id": 30,
+    "nombre": "Mirador de la Placeta Puerta del Sol",
+    "ciudad": "Granada",
+    "categoria": "Miradores",
+    "descripcion": "Mirador en el barrio del Realejo.",
+    "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
+    "ubicacion": "Mirador de la Placeta Puerta del Sol, Granada, España"
+  }
+]
