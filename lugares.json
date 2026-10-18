@@ -268,5 +268,1445 @@
     "descripcion": "Mirador en el barrio del Realejo.",
     "fuente": "https://turismo.granada.org/sites/default/files/2023-09/mapa_miradores.pdf",
     "ubicacion": "Mirador de la Placeta Puerta del Sol, Granada, España"
+  },
+  {
+    "id": 31,
+    "nombre": "Parque de la Ciutadella",
+    "ciudad": "Barcelona",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Barcelona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.barcelonaturisme.com/",
+    "ubicacion": "Parque de la Ciutadella, Barcelona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 32,
+    "nombre": "Playa de la Barceloneta",
+    "ciudad": "Barcelona",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Barcelona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.barcelonaturisme.com/",
+    "ubicacion": "Playa de la Barceloneta, Barcelona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 33,
+    "nombre": "Montjuïc",
+    "ciudad": "Barcelona",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Barcelona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.barcelonaturisme.com/",
+    "ubicacion": "Montjuïc, Barcelona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 34,
+    "nombre": "Arco de Triunfo de Barcelona",
+    "ciudad": "Barcelona",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Barcelona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.barcelonaturisme.com/",
+    "ubicacion": "Arco de Triunfo de Barcelona, Barcelona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 35,
+    "nombre": "Plaza de Cataluña",
+    "ciudad": "Barcelona",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Barcelona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.barcelonaturisme.com/",
+    "ubicacion": "Plaza de Cataluña, Barcelona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 36,
+    "nombre": "Parque del Laberint de Horta",
+    "ciudad": "Barcelona",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Barcelona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.barcelonaturisme.com/",
+    "ubicacion": "Parque del Laberint de Horta, Barcelona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 37,
+    "nombre": "Mirador del Búnker del Carmel",
+    "ciudad": "Barcelona",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Barcelona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.barcelonaturisme.com/",
+    "ubicacion": "Mirador del Búnker del Carmel, Barcelona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 38,
+    "nombre": "Plaza de España",
+    "ciudad": "Sevilla",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Sevilla. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitasevilla.es/",
+    "ubicacion": "Plaza de España, Sevilla, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 39,
+    "nombre": "Parque de María Luisa",
+    "ciudad": "Sevilla",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Sevilla. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitasevilla.es/",
+    "ubicacion": "Parque de María Luisa, Sevilla, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 40,
+    "nombre": "Barrio de Santa Cruz",
+    "ciudad": "Sevilla",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Sevilla. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitasevilla.es/",
+    "ubicacion": "Barrio de Santa Cruz, Sevilla, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 41,
+    "nombre": "Plaza del Cabildo",
+    "ciudad": "Sevilla",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Sevilla. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitasevilla.es/",
+    "ubicacion": "Plaza del Cabildo, Sevilla, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 42,
+    "nombre": "Paseo del río Guadalquivir",
+    "ciudad": "Sevilla",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Sevilla. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitasevilla.es/",
+    "ubicacion": "Paseo del río Guadalquivir, Sevilla, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 43,
+    "nombre": "Alameda de Hércules",
+    "ciudad": "Sevilla",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Sevilla. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitasevilla.es/",
+    "ubicacion": "Alameda de Hércules, Sevilla, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 44,
+    "nombre": "Jardines de Murillo",
+    "ciudad": "Sevilla",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Sevilla. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitasevilla.es/",
+    "ubicacion": "Jardines de Murillo, Sevilla, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 45,
+    "nombre": "Playa de la Malagueta",
+    "ciudad": "Málaga",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Málaga. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visita.malaga.eu/",
+    "ubicacion": "Playa de la Malagueta, Málaga, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 46,
+    "nombre": "Muelle Uno",
+    "ciudad": "Málaga",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Málaga. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visita.malaga.eu/",
+    "ubicacion": "Muelle Uno, Málaga, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 47,
+    "nombre": "Parque de Málaga",
+    "ciudad": "Málaga",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Málaga. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visita.malaga.eu/",
+    "ubicacion": "Parque de Málaga, Málaga, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 48,
+    "nombre": "Mirador de Gibralfaro",
+    "ciudad": "Málaga",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Málaga. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visita.malaga.eu/",
+    "ubicacion": "Mirador de Gibralfaro, Málaga, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 49,
+    "nombre": "Playa de Pedregalejo",
+    "ciudad": "Málaga",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Málaga. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visita.malaga.eu/",
+    "ubicacion": "Playa de Pedregalejo, Málaga, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 50,
+    "nombre": "Jardines de Pedro Luis Alonso",
+    "ciudad": "Málaga",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Málaga. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visita.malaga.eu/",
+    "ubicacion": "Jardines de Pedro Luis Alonso, Málaga, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 51,
+    "nombre": "Puente Romano de Córdoba",
+    "ciudad": "Córdoba",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Córdoba. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodecordoba.org/",
+    "ubicacion": "Puente Romano de Córdoba, Córdoba, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 52,
+    "nombre": "Plaza de la Corredera",
+    "ciudad": "Córdoba",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Córdoba. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodecordoba.org/",
+    "ubicacion": "Plaza de la Corredera, Córdoba, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 53,
+    "nombre": "Calleja de las Flores",
+    "ciudad": "Córdoba",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Córdoba. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodecordoba.org/",
+    "ubicacion": "Calleja de las Flores, Córdoba, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 54,
+    "nombre": "Jardines de la Victoria",
+    "ciudad": "Córdoba",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Córdoba. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodecordoba.org/",
+    "ubicacion": "Jardines de la Victoria, Córdoba, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 55,
+    "nombre": "Cristo de los Faroles",
+    "ciudad": "Córdoba",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Córdoba. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodecordoba.org/",
+    "ubicacion": "Cristo de los Faroles, Córdoba, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 56,
+    "nombre": "Plaza del Pilar",
+    "ciudad": "Zaragoza",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Zaragoza. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.zaragoza.es/sede/portal/turismo/",
+    "ubicacion": "Plaza del Pilar, Zaragoza, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 57,
+    "nombre": "Parque Grande José Antonio Labordeta",
+    "ciudad": "Zaragoza",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Zaragoza. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.zaragoza.es/sede/portal/turismo/",
+    "ubicacion": "Parque Grande José Antonio Labordeta, Zaragoza, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 58,
+    "nombre": "Puente de Piedra de Zaragoza",
+    "ciudad": "Zaragoza",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Zaragoza. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.zaragoza.es/sede/portal/turismo/",
+    "ubicacion": "Puente de Piedra de Zaragoza, Zaragoza, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 59,
+    "nombre": "Ribera del Ebro",
+    "ciudad": "Zaragoza",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Zaragoza. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.zaragoza.es/sede/portal/turismo/",
+    "ubicacion": "Ribera del Ebro, Zaragoza, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 60,
+    "nombre": "Parque del Agua Luis Buñuel",
+    "ciudad": "Zaragoza",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Zaragoza. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.zaragoza.es/sede/portal/turismo/",
+    "ubicacion": "Parque del Agua Luis Buñuel, Zaragoza, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 61,
+    "nombre": "Paseo de Abandoibarra",
+    "ciudad": "Bilbao",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Bilbao. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.bilbaoturismo.net/",
+    "ubicacion": "Paseo de Abandoibarra, Bilbao, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 62,
+    "nombre": "Parque de Doña Casilda",
+    "ciudad": "Bilbao",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Bilbao. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.bilbaoturismo.net/",
+    "ubicacion": "Parque de Doña Casilda, Bilbao, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 63,
+    "nombre": "Puente Zubizuri",
+    "ciudad": "Bilbao",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Bilbao. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.bilbaoturismo.net/",
+    "ubicacion": "Puente Zubizuri, Bilbao, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 64,
+    "nombre": "Casco Viejo de Bilbao",
+    "ciudad": "Bilbao",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Bilbao. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.bilbaoturismo.net/",
+    "ubicacion": "Casco Viejo de Bilbao, Bilbao, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 65,
+    "nombre": "Mirador de Artxanda",
+    "ciudad": "Bilbao",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Bilbao. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.bilbaoturismo.net/",
+    "ubicacion": "Mirador de Artxanda, Bilbao, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 66,
+    "nombre": "Playa de la Concha",
+    "ciudad": "San Sebastián",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en San Sebastián. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.sansebastianturismoa.eus/",
+    "ubicacion": "Playa de la Concha, San Sebastián, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 67,
+    "nombre": "Paseo Nuevo",
+    "ciudad": "San Sebastián",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en San Sebastián. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.sansebastianturismoa.eus/",
+    "ubicacion": "Paseo Nuevo, San Sebastián, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 68,
+    "nombre": "Peine del Viento exterior",
+    "ciudad": "San Sebastián",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en San Sebastián. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.sansebastianturismoa.eus/",
+    "ubicacion": "Peine del Viento exterior, San Sebastián, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 69,
+    "nombre": "Monte Urgull",
+    "ciudad": "San Sebastián",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en San Sebastián. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.sansebastianturismoa.eus/",
+    "ubicacion": "Monte Urgull, San Sebastián, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 70,
+    "nombre": "Playa de Ondarreta",
+    "ciudad": "San Sebastián",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en San Sebastián. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.sansebastianturismoa.eus/",
+    "ubicacion": "Playa de Ondarreta, San Sebastián, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 71,
+    "nombre": "Playa del Sardinero",
+    "ciudad": "Santander",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Santander. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.santander.es/",
+    "ubicacion": "Playa del Sardinero, Santander, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 72,
+    "nombre": "Península de la Magdalena",
+    "ciudad": "Santander",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Santander. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.santander.es/",
+    "ubicacion": "Península de la Magdalena, Santander, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 73,
+    "nombre": "Jardines de Piquío",
+    "ciudad": "Santander",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Santander. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.santander.es/",
+    "ubicacion": "Jardines de Piquío, Santander, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 74,
+    "nombre": "Paseo de Pereda",
+    "ciudad": "Santander",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Santander. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.santander.es/",
+    "ubicacion": "Paseo de Pereda, Santander, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 75,
+    "nombre": "Playa de Mataleñas",
+    "ciudad": "Santander",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Santander. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.santander.es/",
+    "ubicacion": "Playa de Mataleñas, Santander, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 76,
+    "nombre": "Campo de San Francisco",
+    "ciudad": "Oviedo",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Oviedo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismoviedo.es/",
+    "ubicacion": "Campo de San Francisco, Oviedo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 77,
+    "nombre": "Plaza del Fontán",
+    "ciudad": "Oviedo",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Oviedo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismoviedo.es/",
+    "ubicacion": "Plaza del Fontán, Oviedo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 78,
+    "nombre": "Parque de Invierno",
+    "ciudad": "Oviedo",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Oviedo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismoviedo.es/",
+    "ubicacion": "Parque de Invierno, Oviedo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 79,
+    "nombre": "Plaza de la Catedral de Oviedo",
+    "ciudad": "Oviedo",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Oviedo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismoviedo.es/",
+    "ubicacion": "Plaza de la Catedral de Oviedo, Oviedo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 80,
+    "nombre": "Playa de San Lorenzo",
+    "ciudad": "Gijón",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Gijón. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.gijon.es/",
+    "ubicacion": "Playa de San Lorenzo, Gijón, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 81,
+    "nombre": "Cerro de Santa Catalina",
+    "ciudad": "Gijón",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Gijón. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.gijon.es/",
+    "ubicacion": "Cerro de Santa Catalina, Gijón, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 82,
+    "nombre": "Parque de Isabel la Católica",
+    "ciudad": "Gijón",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Gijón. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.gijon.es/",
+    "ubicacion": "Parque de Isabel la Católica, Gijón, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 83,
+    "nombre": "Puerto deportivo de Gijón",
+    "ciudad": "Gijón",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Gijón. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.gijon.es/",
+    "ubicacion": "Puerto deportivo de Gijón, Gijón, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 84,
+    "nombre": "Plaza del Obradoiro",
+    "ciudad": "Santiago de Compostela",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Santiago de Compostela. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.santiagoturismo.com/",
+    "ubicacion": "Plaza del Obradoiro, Santiago de Compostela, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 85,
+    "nombre": "Parque de la Alameda de Santiago",
+    "ciudad": "Santiago de Compostela",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Santiago de Compostela. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.santiagoturismo.com/",
+    "ubicacion": "Parque de la Alameda de Santiago, Santiago de Compostela, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 86,
+    "nombre": "Parque de Bonaval",
+    "ciudad": "Santiago de Compostela",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Santiago de Compostela. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.santiagoturismo.com/",
+    "ubicacion": "Parque de Bonaval, Santiago de Compostela, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 87,
+    "nombre": "Plaza de Platerías",
+    "ciudad": "Santiago de Compostela",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Santiago de Compostela. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.santiagoturismo.com/",
+    "ubicacion": "Plaza de Platerías, Santiago de Compostela, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 88,
+    "nombre": "Paseo Marítimo de A Coruña",
+    "ciudad": "A Coruña",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en A Coruña. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.coruna.gal/turismo/",
+    "ubicacion": "Paseo Marítimo de A Coruña, A Coruña, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 89,
+    "nombre": "Playa de Riazor",
+    "ciudad": "A Coruña",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en A Coruña. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.coruna.gal/turismo/",
+    "ubicacion": "Playa de Riazor, A Coruña, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 90,
+    "nombre": "Jardines de Méndez Núñez",
+    "ciudad": "A Coruña",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en A Coruña. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.coruna.gal/turismo/",
+    "ubicacion": "Jardines de Méndez Núñez, A Coruña, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 91,
+    "nombre": "Monte de San Pedro",
+    "ciudad": "A Coruña",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en A Coruña. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.coruna.gal/turismo/",
+    "ubicacion": "Monte de San Pedro, A Coruña, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 92,
+    "nombre": "Parque de Castrelos",
+    "ciudad": "Vigo",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Vigo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodevigo.org/",
+    "ubicacion": "Parque de Castrelos, Vigo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 93,
+    "nombre": "Playa de Samil",
+    "ciudad": "Vigo",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Vigo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodevigo.org/",
+    "ubicacion": "Playa de Samil, Vigo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 94,
+    "nombre": "Monte do Castro",
+    "ciudad": "Vigo",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Vigo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodevigo.org/",
+    "ubicacion": "Monte do Castro, Vigo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 95,
+    "nombre": "Casco Vello de Vigo",
+    "ciudad": "Vigo",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Vigo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodevigo.org/",
+    "ubicacion": "Casco Vello de Vigo, Vigo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 96,
+    "nombre": "Ciudadela de Pamplona",
+    "ciudad": "Pamplona",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Pamplona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitpamplonairuna.com/",
+    "ubicacion": "Ciudadela de Pamplona, Pamplona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 97,
+    "nombre": "Parque de la Taconera",
+    "ciudad": "Pamplona",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Pamplona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitpamplonairuna.com/",
+    "ubicacion": "Parque de la Taconera, Pamplona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 98,
+    "nombre": "Plaza del Castillo",
+    "ciudad": "Pamplona",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Pamplona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitpamplonairuna.com/",
+    "ubicacion": "Plaza del Castillo, Pamplona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 99,
+    "nombre": "Parque de Yamaguchi",
+    "ciudad": "Pamplona",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Pamplona. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitpamplonairuna.com/",
+    "ubicacion": "Parque de Yamaguchi, Pamplona, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 100,
+    "nombre": "Parque de la Florida",
+    "ciudad": "Vitoria-Gasteiz",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Vitoria-Gasteiz. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.vitoria-gasteiz.org/",
+    "ubicacion": "Parque de la Florida, Vitoria-Gasteiz, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 101,
+    "nombre": "Anillo Verde de Vitoria-Gasteiz",
+    "ciudad": "Vitoria-Gasteiz",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Vitoria-Gasteiz. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.vitoria-gasteiz.org/",
+    "ubicacion": "Anillo Verde de Vitoria-Gasteiz, Vitoria-Gasteiz, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 102,
+    "nombre": "Plaza de la Virgen Blanca",
+    "ciudad": "Vitoria-Gasteiz",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Vitoria-Gasteiz. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.vitoria-gasteiz.org/",
+    "ubicacion": "Plaza de la Virgen Blanca, Vitoria-Gasteiz, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 103,
+    "nombre": "Parque de Salburua",
+    "ciudad": "Vitoria-Gasteiz",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Vitoria-Gasteiz. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.vitoria-gasteiz.org/",
+    "ubicacion": "Parque de Salburua, Vitoria-Gasteiz, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 104,
+    "nombre": "Plaza Mayor de Salamanca",
+    "ciudad": "Salamanca",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Salamanca. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://salamanca.es/",
+    "ubicacion": "Plaza Mayor de Salamanca, Salamanca, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 105,
+    "nombre": "Puente Romano de Salamanca",
+    "ciudad": "Salamanca",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Salamanca. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://salamanca.es/",
+    "ubicacion": "Puente Romano de Salamanca, Salamanca, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 106,
+    "nombre": "Huerto de Calixto y Melibea",
+    "ciudad": "Salamanca",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Salamanca. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://salamanca.es/",
+    "ubicacion": "Huerto de Calixto y Melibea, Salamanca, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 107,
+    "nombre": "Jardín de los Jesuitas",
+    "ciudad": "Salamanca",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Salamanca. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://salamanca.es/",
+    "ubicacion": "Jardín de los Jesuitas, Salamanca, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 108,
+    "nombre": "Mirador del Valle",
+    "ciudad": "Toledo",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Toledo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.toledo.es/",
+    "ubicacion": "Mirador del Valle, Toledo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 109,
+    "nombre": "Puente de San Martín",
+    "ciudad": "Toledo",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Toledo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.toledo.es/",
+    "ubicacion": "Puente de San Martín, Toledo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 110,
+    "nombre": "Puente de Alcántara de Toledo",
+    "ciudad": "Toledo",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Toledo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.toledo.es/",
+    "ubicacion": "Puente de Alcántara de Toledo, Toledo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 111,
+    "nombre": "Plaza de Zocodover",
+    "ciudad": "Toledo",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Toledo. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.toledo.es/",
+    "ubicacion": "Plaza de Zocodover, Toledo, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 112,
+    "nombre": "Acueducto de Segovia",
+    "ciudad": "Segovia",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Segovia. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodesegovia.com/",
+    "ubicacion": "Acueducto de Segovia, Segovia, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 113,
+    "nombre": "Mirador de la Pradera de San Marcos",
+    "ciudad": "Segovia",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Segovia. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodesegovia.com/",
+    "ubicacion": "Mirador de la Pradera de San Marcos, Segovia, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 114,
+    "nombre": "Plaza Mayor de Segovia",
+    "ciudad": "Segovia",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Segovia. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodesegovia.com/",
+    "ubicacion": "Plaza Mayor de Segovia, Segovia, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 115,
+    "nombre": "Murallas de Ávila exterior",
+    "ciudad": "Ávila",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Ávila. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.avilaturismo.com/",
+    "ubicacion": "Murallas de Ávila exterior, Ávila, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 116,
+    "nombre": "Mirador de los Cuatro Postes",
+    "ciudad": "Ávila",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Ávila. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.avilaturismo.com/",
+    "ubicacion": "Mirador de los Cuatro Postes, Ávila, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 117,
+    "nombre": "Plaza del Mercado Chico",
+    "ciudad": "Ávila",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Ávila. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.avilaturismo.com/",
+    "ubicacion": "Plaza del Mercado Chico, Ávila, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 118,
+    "nombre": "Paseo del Espolón de Burgos",
+    "ciudad": "Burgos",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Burgos. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismoburgos.org/",
+    "ubicacion": "Paseo del Espolón de Burgos, Burgos, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 119,
+    "nombre": "Mirador del Castillo de Burgos",
+    "ciudad": "Burgos",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Burgos. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismoburgos.org/",
+    "ubicacion": "Mirador del Castillo de Burgos, Burgos, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 120,
+    "nombre": "Arco de Santa María",
+    "ciudad": "Burgos",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Burgos. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismoburgos.org/",
+    "ubicacion": "Arco de Santa María, Burgos, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 121,
+    "nombre": "Plaza de San Marcos de León",
+    "ciudad": "León",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en León. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://leon.es/",
+    "ubicacion": "Plaza de San Marcos de León, León, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 122,
+    "nombre": "Barrio Húmedo de León",
+    "ciudad": "León",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en León. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://leon.es/",
+    "ubicacion": "Barrio Húmedo de León, León, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 123,
+    "nombre": "Parque de Quevedo",
+    "ciudad": "León",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en León. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://leon.es/",
+    "ubicacion": "Parque de Quevedo, León, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 124,
+    "nombre": "Campo Grande de Valladolid",
+    "ciudad": "Valladolid",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Valladolid. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.info.valladolid.es/",
+    "ubicacion": "Campo Grande de Valladolid, Valladolid, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 125,
+    "nombre": "Plaza Mayor de Valladolid",
+    "ciudad": "Valladolid",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Valladolid. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.info.valladolid.es/",
+    "ubicacion": "Plaza Mayor de Valladolid, Valladolid, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 126,
+    "nombre": "Playa de las Moreras",
+    "ciudad": "Valladolid",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Valladolid. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.info.valladolid.es/",
+    "ubicacion": "Playa de las Moreras, Valladolid, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 127,
+    "nombre": "Playa de la Caleta",
+    "ciudad": "Cádiz",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Cádiz. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.cadiz.es/",
+    "ubicacion": "Playa de la Caleta, Cádiz, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 128,
+    "nombre": "Parque Genovés",
+    "ciudad": "Cádiz",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Cádiz. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.cadiz.es/",
+    "ubicacion": "Parque Genovés, Cádiz, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 129,
+    "nombre": "Paseo del Campo del Sur",
+    "ciudad": "Cádiz",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Cádiz. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.cadiz.es/",
+    "ubicacion": "Paseo del Campo del Sur, Cádiz, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 130,
+    "nombre": "Plaza de San Juan de Dios",
+    "ciudad": "Cádiz",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Cádiz. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.cadiz.es/",
+    "ubicacion": "Plaza de San Juan de Dios, Cádiz, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 131,
+    "nombre": "Parque Nicolás Salmerón",
+    "ciudad": "Almería",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Almería. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodealmeria.org/",
+    "ubicacion": "Parque Nicolás Salmerón, Almería, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 132,
+    "nombre": "Playa del Zapillo",
+    "ciudad": "Almería",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Almería. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodealmeria.org/",
+    "ubicacion": "Playa del Zapillo, Almería, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 133,
+    "nombre": "Paseo de Almería",
+    "ciudad": "Almería",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Almería. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodealmeria.org/",
+    "ubicacion": "Paseo de Almería, Almería, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 134,
+    "nombre": "Muelle del Tinto",
+    "ciudad": "Huelva",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Huelva. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.huelva.es/",
+    "ubicacion": "Muelle del Tinto, Huelva, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 135,
+    "nombre": "Parque Moret",
+    "ciudad": "Huelva",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Huelva. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.huelva.es/",
+    "ubicacion": "Parque Moret, Huelva, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 136,
+    "nombre": "Plaza de las Monjas",
+    "ciudad": "Huelva",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Huelva. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.huelva.es/",
+    "ubicacion": "Plaza de las Monjas, Huelva, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 137,
+    "nombre": "Mirador de la Cruz del Castillo de Santa Catalina",
+    "ciudad": "Jaén",
+    "categoria": "Miradores",
+    "descripcion": "Lugar de interés para descubrir en Jaén. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turjaen.org/",
+    "ubicacion": "Mirador de la Cruz del Castillo de Santa Catalina, Jaén, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 138,
+    "nombre": "Parque de la Concordia de Jaén",
+    "ciudad": "Jaén",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Jaén. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turjaen.org/",
+    "ubicacion": "Parque de la Concordia de Jaén, Jaén, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 139,
+    "nombre": "Plaza de Santa María de Jaén",
+    "ciudad": "Jaén",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Jaén. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turjaen.org/",
+    "ubicacion": "Plaza de Santa María de Jaén, Jaén, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 140,
+    "nombre": "Jardín de Floridablanca",
+    "ciudad": "Murcia",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Murcia. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodemurcia.es/",
+    "ubicacion": "Jardín de Floridablanca, Murcia, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 141,
+    "nombre": "Plaza de las Flores de Murcia",
+    "ciudad": "Murcia",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Murcia. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodemurcia.es/",
+    "ubicacion": "Plaza de las Flores de Murcia, Murcia, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 142,
+    "nombre": "Paseo del Malecón",
+    "ciudad": "Murcia",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Murcia. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodemurcia.es/",
+    "ubicacion": "Paseo del Malecón, Murcia, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 143,
+    "nombre": "Playa del Postiguet",
+    "ciudad": "Alicante",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Alicante. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://alicanteturismo.com/",
+    "ubicacion": "Playa del Postiguet, Alicante, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 144,
+    "nombre": "Explanada de España",
+    "ciudad": "Alicante",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Alicante. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://alicanteturismo.com/",
+    "ubicacion": "Explanada de España, Alicante, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 145,
+    "nombre": "Parque de la Ereta",
+    "ciudad": "Alicante",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Alicante. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://alicanteturismo.com/",
+    "ubicacion": "Parque de la Ereta, Alicante, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 146,
+    "nombre": "Playa de San Juan",
+    "ciudad": "Alicante",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Alicante. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://alicanteturismo.com/",
+    "ubicacion": "Playa de San Juan, Alicante, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 147,
+    "nombre": "Palmeral de Elche",
+    "ciudad": "Elche",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Elche. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitelche.com/",
+    "ubicacion": "Palmeral de Elche, Elche, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 148,
+    "nombre": "Parque Municipal de Elche",
+    "ciudad": "Elche",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Elche. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitelche.com/",
+    "ubicacion": "Parque Municipal de Elche, Elche, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 149,
+    "nombre": "Huerto del Cura exterior",
+    "ciudad": "Elche",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Elche. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitelche.com/",
+    "ubicacion": "Huerto del Cura exterior, Elche, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 150,
+    "nombre": "Parque Ribalta",
+    "ciudad": "Castellón de la Plana",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Castellón de la Plana. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodecastellon.com/",
+    "ubicacion": "Parque Ribalta, Castellón de la Plana, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 151,
+    "nombre": "Playa del Pinar",
+    "ciudad": "Castellón de la Plana",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Castellón de la Plana. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodecastellon.com/",
+    "ubicacion": "Playa del Pinar, Castellón de la Plana, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 152,
+    "nombre": "Grao de Castellón",
+    "ciudad": "Castellón de la Plana",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Castellón de la Plana. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.turismodecastellon.com/",
+    "ubicacion": "Grao de Castellón, Castellón de la Plana, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 153,
+    "nombre": "Parque del Ebro",
+    "ciudad": "Logroño",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Logroño. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitalogrono.com/",
+    "ubicacion": "Parque del Ebro, Logroño, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 154,
+    "nombre": "Calle Laurel",
+    "ciudad": "Logroño",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Logroño. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitalogrono.com/",
+    "ubicacion": "Calle Laurel, Logroño, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 155,
+    "nombre": "Paseo del Espolón de Logroño",
+    "ciudad": "Logroño",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Logroño. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://visitalogrono.com/",
+    "ubicacion": "Paseo del Espolón de Logroño, Logroño, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 156,
+    "nombre": "Plaza Mayor de Cáceres",
+    "ciudad": "Cáceres",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Cáceres. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.caceres.es/",
+    "ubicacion": "Plaza Mayor de Cáceres, Cáceres, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 157,
+    "nombre": "Arco de la Estrella",
+    "ciudad": "Cáceres",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Cáceres. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.caceres.es/",
+    "ubicacion": "Arco de la Estrella, Cáceres, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 158,
+    "nombre": "Paseo de Cánovas",
+    "ciudad": "Cáceres",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Cáceres. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismo.caceres.es/",
+    "ubicacion": "Paseo de Cánovas, Cáceres, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 159,
+    "nombre": "Puente Romano de Mérida",
+    "ciudad": "Mérida",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Mérida. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismomerida.org/",
+    "ubicacion": "Puente Romano de Mérida, Mérida, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 160,
+    "nombre": "Parque de las Siete Sillas",
+    "ciudad": "Mérida",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Mérida. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismomerida.org/",
+    "ubicacion": "Parque de las Siete Sillas, Mérida, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 161,
+    "nombre": "Acueducto de los Milagros exterior",
+    "ciudad": "Mérida",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Mérida. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://turismomerida.org/",
+    "ubicacion": "Acueducto de los Milagros exterior, Mérida, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 162,
+    "nombre": "Paseo Marítimo de Palma",
+    "ciudad": "Palma",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Palma. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitpalma.com/",
+    "ubicacion": "Paseo Marítimo de Palma, Palma, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 163,
+    "nombre": "Parc de la Mar",
+    "ciudad": "Palma",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Palma. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitpalma.com/",
+    "ubicacion": "Parc de la Mar, Palma, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 164,
+    "nombre": "Playa de Can Pere Antoni",
+    "ciudad": "Palma",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Palma. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.visitpalma.com/",
+    "ubicacion": "Playa de Can Pere Antoni, Palma, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 165,
+    "nombre": "Playa de Las Canteras",
+    "ciudad": "Las Palmas de Gran Canaria",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Las Palmas de Gran Canaria. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://lpavisit.com/",
+    "ubicacion": "Playa de Las Canteras, Las Palmas de Gran Canaria, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 166,
+    "nombre": "Parque de Santa Catalina",
+    "ciudad": "Las Palmas de Gran Canaria",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Las Palmas de Gran Canaria. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://lpavisit.com/",
+    "ubicacion": "Parque de Santa Catalina, Las Palmas de Gran Canaria, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 167,
+    "nombre": "Paseo de Las Canteras",
+    "ciudad": "Las Palmas de Gran Canaria",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Las Palmas de Gran Canaria. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://lpavisit.com/",
+    "ubicacion": "Paseo de Las Canteras, Las Palmas de Gran Canaria, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 168,
+    "nombre": "Parque García Sanabria",
+    "ciudad": "Santa Cruz de Tenerife",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Santa Cruz de Tenerife. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.webtenerife.com/",
+    "ubicacion": "Parque García Sanabria, Santa Cruz de Tenerife, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 169,
+    "nombre": "Plaza de España de Santa Cruz de Tenerife",
+    "ciudad": "Santa Cruz de Tenerife",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Santa Cruz de Tenerife. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.webtenerife.com/",
+    "ubicacion": "Plaza de España de Santa Cruz de Tenerife, Santa Cruz de Tenerife, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 170,
+    "nombre": "Playa de Las Teresitas",
+    "ciudad": "Santa Cruz de Tenerife",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Santa Cruz de Tenerife. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.webtenerife.com/",
+    "ubicacion": "Playa de Las Teresitas, Santa Cruz de Tenerife, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 171,
+    "nombre": "Parque Marítimo del Mediterráneo exterior",
+    "ciudad": "Ceuta",
+    "categoria": "Naturaleza",
+    "descripcion": "Lugar de interés para descubrir en Ceuta. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.ceuta.es/",
+    "ubicacion": "Parque Marítimo del Mediterráneo exterior, Ceuta, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 172,
+    "nombre": "Playa de la Ribera de Ceuta",
+    "ciudad": "Ceuta",
+    "categoria": "Playas",
+    "descripcion": "Lugar de interés para descubrir en Ceuta. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.ceuta.es/",
+    "ubicacion": "Playa de la Ribera de Ceuta, Ceuta, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 173,
+    "nombre": "Plaza de España de Melilla",
+    "ciudad": "Melilla",
+    "categoria": "Cultura",
+    "descripcion": "Lugar de interés para descubrir en Melilla. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.melilla.es/",
+    "ubicacion": "Plaza de España de Melilla, Melilla, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
+  },
+  {
+    "id": 174,
+    "nombre": "Paseo Marítimo de Melilla",
+    "ciudad": "Melilla",
+    "categoria": "Paseos",
+    "descripcion": "Lugar de interés para descubrir en Melilla. Comprueba el acceso y horarios antes de ir.",
+    "fuente": "https://www.melilla.es/",
+    "ubicacion": "Paseo Marítimo de Melilla, Melilla, España",
+    "verificacion": "Pendiente de comprobar ficha individual; enlace al portal turístico general"
   }
 ]
