@@ -1,35 +1,40 @@
-
-// Fotografías reales de Wikimedia Commons, con atribución y enlace al archivo original.
-// Se buscan solo al mostrar las tarjetas. Si no hay coincidencia adecuada, queda la ilustración.
+// Imágenes locales aprobadas + alternativa externa solo cuando la tarjeta es visible.
+// Las fotos locales se descargan con descargar_fotos.py, con licencia y autoría revisadas.
 const photoCache=new Map();
+let photoManifest={};
+fetch('fotos/manifest.json').then(r=>r.ok?r.json():{}).then(m=>{photoManifest=m||{}}).catch(()=>{});
 function plain(html){const d=document.createElement('div');d.innerHTML=html||'';return d.textContent.trim()}
+const pending=[];let active=0;const MAX_ACTIVE=2;
+function enqueue(task){return new Promise(resolve=>{pending.push({task,resolve});pump()})}
+function pump(){while(active<MAX_ACTIVE&&pending.length){const {task,resolve}=pending.shift();active++;task().then(resolve).catch(()=>resolve(null)).finally(()=>{active--;pump()})}}
 async function findPhoto(p){
+ if(photoManifest[String(p.id)])return photoManifest[String(p.id)];
  if(photoCache.has(p.id))return photoCache.get(p.id);
- const query='intitle:"'+p.nombre+'" '+p.ciudad+' filetype:bitmap';
- const url='https://commons.wikimedia.org/w/api.php?'+new URLSearchParams({action:'query',generator:'search',gsrsearch:query,gsrnamespace:'6',gsrlimit:'8',prop:'imageinfo',iiprop:'url|extmetadata',iiurlwidth:'850',format:'json',origin:'*'});
- try{
-  const r=await fetch(url,{referrerPolicy:'no-referrer'});if(!r.ok)throw Error('Commons');
+ const photo=await enqueue(async()=>{
+  const query='intitle:"'+p.nombre+'" '+p.ciudad+' filetype:bitmap';
+  const url='https://commons.wikimedia.org/w/api.php?'+new URLSearchParams({action:'query',generator:'search',gsrsearch:query,gsrnamespace:'6',gsrlimit:'6',prop:'imageinfo',iiprop:'url|extmetadata',iiurlwidth:'640',format:'json',origin:'*'});
+  const r=await fetch(url);if(!r.ok)return null;
   const data=await r.json();const pages=Object.values(data.query?.pages||{});
-  const tokens=p.nombre.toLocaleLowerCase('es').replace(/^(parque de |jardines de |jardines del |mirador de |plaza de |playa de )/,'').split(/\s+/).filter(w=>w.length>3);
-  const choices=pages.filter(x=>{const t=x.title.toLocaleLowerCase('es');return /\.(jpe?g|png|webp)$/i.test(t)&&tokens.some(w=>t.includes(w))&&x.imageinfo?.[0]?.thumburl});
-  const file=choices[0];if(!file){photoCache.set(p.id,null);return null}
-  const info=file.imageinfo[0],meta=info.extmetadata||{};
-  const license=plain(meta.LicenseShortName?.value||meta.License?.value||'');
-  // No mostramos imágenes sin licencia identificable.
-  if(!license){photoCache.set(p.id,null);return null}
-  const photo={src:info.thumburl,source:info.descriptionurl,author:plain(meta.Artist?.value||'Autor en Wikimedia Commons'),license};
-  photoCache.set(p.id,photo);return photo;
- }catch{return null}
+  const tokens=p.nombre.toLocaleLowerCase('es').split(/\s+/).filter(w=>w.length>4);
+  for(const file of pages){
+   const info=file.imageinfo?.[0];if(!info?.thumburl||!/\.(jpe?g|png|webp)$/i.test(file.title))continue;
+   if(!tokens.some(w=>file.title.toLocaleLowerCase('es').includes(w)))continue;
+   const meta=info.extmetadata||{};const license=plain(meta.LicenseShortName?.value||'');
+   if(!/^(CC0|CC BY(?:-SA)?(?: |$)|Public domain|Dominio público)/i.test(license))continue;
+   return {src:info.thumburl,source:info.descriptionurl,author:plain(meta.Artist?.value||'Ver autor en Commons'),license};
+  }
+  return null;
+ });photoCache.set(p.id,photo);return photo;
 }
 const photoObserver=('IntersectionObserver' in window)?new IntersectionObserver(entries=>{
  for(const e of entries)if(e.isIntersecting){photoObserver.unobserve(e.target);loadPhoto(e.target)}
-},{rootMargin:'250px'}):null;
+},{rootMargin:'120px'}):null;
 async function loadPhoto(art){
  const p=places.find(x=>String(x.id)===art.dataset.placeId);if(!p)return;
  const photo=await findPhoto(p);if(!photo||!art.isConnected)return;
- const img=el('img','real-photo');img.src=photo.src;img.alt='Fotografía encontrada para '+p.nombre+' (revisar coincidencia)';img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';
+ const img=el('img','real-photo');img.src=photo.src;img.alt='Fotografía asociada a '+p.nombre+' (verifica la coincidencia)';img.loading='lazy';img.decoding='async';
  img.onerror=()=>img.remove();art.prepend(img);
  const credit=el('a','photo-credit','Foto: '+photo.author+' · '+photo.license);
- credit.href=photo.source;credit.target='_blank';credit.rel='noopener noreferrer';credit.title='Ver autoría y licencia en Wikimedia Commons';art.append(credit);
+ credit.href=photo.source;credit.target='_blank';credit.rel='noopener noreferrer';credit.title='Autoría y licencia en Wikimedia Commons';art.append(credit);
 }
 const $=s=>document.querySelector(s);const cards=$('#cards'),search=$('#search'),city=$('#city'),category=$('#category'),onlyFav=$('#onlyFavorites'),counter=$('#counter'),empty=$('#empty'),dialog=$('#detail');let places=[];let favorites=[];try{favorites=JSON.parse(localStorage.getItem('planazo-favoritos')||'[]');if(!Array.isArray(favorites))favorites=[]}catch{}const symbols={Naturaleza:'🌳',Cultura:'🏛️',Miradores:'🌄',Paseos:'🚶',Playas:'🏖️'};const el=(tag,cls,txt)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(txt!==undefined)x.textContent=txt;return x};function mapUrl(p){return 'https://www.openstreetmap.org/search?query='+encodeURIComponent(p.ubicacion)}function placeUrl(p){return location.origin+location.pathname+'#plan-'+p.id}async function share(title,url,button){try{if(navigator.share){await navigator.share({title,text:title+' — PLANAZO',url})}else if(navigator.clipboard&&isSecureContext){await navigator.clipboard.writeText(url);if(button){const old=button.textContent;button.textContent='✓ Copiado';setTimeout(()=>button.textContent=old,1800)}}else{prompt('Copia el enlace:',url)}}catch(e){if(e.name!=='AbortError')prompt('Copia el enlace:',url)}}function toggleFav(id){favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[...favorites,id];try{localStorage.setItem('planazo-favoritos',JSON.stringify(favorites))}catch{}render()}function detail(p){const container=$('#detailContent');container.replaceChildren();container.append(el('span','eyebrow',p.ciudad+' · '+p.categoria),el('h2','',p.nombre),el('p','',p.descripcion));const links=el('div','dialog-links');const a=el('a','','🗺️ Cómo llegar');a.href=mapUrl(p);a.target='_blank';a.rel='noopener noreferrer';const source=el('a','',p.verificacion?'🔎 Portal turístico (comprobar ficha)':'🔎 Fuente turística');source.href=p.fuente;source.target='_blank';source.rel='noopener noreferrer';const b=el('button','','↗ Compartir');b.onclick=()=>share(p.nombre,placeUrl(p),b);links.append(a,source,b);container.append(links,el('p','','⚠️ Comprueba los horarios, cierres y condiciones de acceso antes de ir.'));dialog.showModal()}function render(){const q=search.value.trim().toLocaleLowerCase('es');const filtered=places.filter(p=>(!q||(p.nombre+' '+p.ciudad+' '+p.descripcion).toLocaleLowerCase('es').includes(q))&&(!city.value||p.ciudad===city.value)&&(!category.value||p.categoria===category.value)&&(!onlyFav.checked||favorites.includes(p.id)));cards.replaceChildren();counter.textContent=filtered.length;empty.hidden=filtered.length>0;for(const p of filtered){const card=el('article','card');const art=el('div','card-art');art.dataset.category=p.categoria;art.dataset.placeId=p.id;art.append(el('span','illustration',symbols[p.categoria]||'📍'),el('span','category-pill',p.categoria));const heart=el('button','heart',favorites.includes(p.id)?'♥':'♡');heart.type='button';heart.title='Guardar favorito';heart.setAttribute('aria-label','Guardar '+p.nombre+' como favorito');heart.setAttribute('aria-pressed',String(favorites.includes(p.id)));heart.onclick=()=>toggleFav(p.id);art.append(heart);const body=el('div','card-body');body.append(el('span','location','📍 '+p.ciudad),el('h3','',p.nombre),el('p','',p.descripcion));const actions=el('div','card-actions');const map=el('a','','◎ Mapa');map.href=mapUrl(p);map.target='_blank';map.rel='noopener noreferrer';const shareButton=el('button','','↗ Compartir');shareButton.onclick=()=>share(p.nombre,placeUrl(p),shareButton);const more=el('button','details','→');more.setAttribute('aria-label','Ver detalles de '+p.nombre);more.onclick=()=>detail(p);actions.append(map,shareButton,more);body.append(actions);card.append(art,body);cards.append(card);if(photoObserver)photoObserver.observe(art);else loadPhoto(art)}}function init(data){places=data;for(const name of [...new Set(places.map(p=>p.ciudad))].sort()){city.add(new Option(name,name))}const cats=[...new Set(places.map(p=>p.categoria))].sort();for(const name of cats)category.add(new Option(name,name));const bar=$('#categoryButtons');const all=el('button','cat-btn active','✨ Todas');all.onclick=()=>{category.value='';render();updateTabs()};bar.append(all);for(const name of cats){const b=el('button','cat-btn',(symbols[name]||'📍')+' '+name);b.dataset.cat=name;b.onclick=()=>{category.value=name;render();updateTabs()};bar.append(b)}const hash=location.hash.match(/^#plan-(\d+)$/);if(hash){const p=places.find(p=>p.id===Number(hash[1]));if(p){search.value=p.nombre;setTimeout(()=>detail(p),200)}}render()}function updateTabs(){for(const b of document.querySelectorAll('.cat-btn'))b.classList.toggle('active',(b.dataset.cat||'')===category.value)}[search,city,category,onlyFav].forEach(x=>x.addEventListener('input',()=>{render();updateTabs()}));$('#navFav').onclick=()=>{onlyFav.checked=!onlyFav.checked;render();$('#lugares').scrollIntoView()};$('#navCities').onclick=()=>city.focus();$('#shareSite').onclick=e=>share('PLANAZO',location.origin+location.pathname,e.currentTarget);$('#closeDetail').onclick=()=>dialog.close();dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});fetch('lugares.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(init).catch(()=>{empty.hidden=false;empty.textContent='No se pudieron cargar los lugares. Para probar la web, publícala en GitHub Pages o abre la carpeta con un servidor local; algunos navegadores bloquean JSON al abrir index.html directamente.'});
